@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    position: relative;
+    background: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    z-index: 1000;
+    border-bottom: 1px solid #000;
+    opacity: .5;
+}
+
+header .logo {
+    position: relative;
+    color: #000;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+header ul {
+    position: relative;
+    display: flex;
+    justify-items: center;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+header ul li a {
+    width: 100%;
+    padding: 10px 20px;
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+    border-radius: 50px;
+}
+header ul li a:hover {
+    background: #003147;
+    font-weight: 700;
+}
+

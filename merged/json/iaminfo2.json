@@ -1,0 +1,68 @@
+{
+	"tree": {
+		"user_name": "root",
+		"children": [
+			{
+				"group_id": "AGPA45W322ZAZRKF4OKLX",
+				"group_name": "DICT_GROUP",
+				"group_attached_policies": [
+					"AdministratorAccess"
+				],
+				"children": [
+					{
+						"user_id": "AIDA45W322ZA4QIW5O7CI",
+						"user_name": "aaa",
+						"user_arn": "arn:aws:iam::888445523521:user/aaa",
+						"user_create_date": "2021-05-22 14:29:36+00:00",
+						"user_password_last_used": null,
+						"user_attached_policies": [
+							"AdministratorAccess",
+							"IAMUserChangePassword"
+						]
+					},
+					{
+						"user_id": "AIDA45W322ZARQ45N74TU",
+						"user_name": "DICT_S3",
+						"user_arn": "arn:aws:iam::888445523521:user/DICT_S3",
+						"user_create_date": "2021-03-26 01:08:06+00:00",
+						"user_password_last_used": "2021-05-22 11:58:12+00:00",
+						"user_attached_policies": [
+							"AdministratorAccess"
+						]
+					},
+					{
+						"user_id": "AIDA45W322ZAX3JFHVOLZ",
+						"user_name": "DICTJH",
+						"user_arn": "arn:aws:iam::888445523521:user/DICTJH",
+						"user_create_date": "2021-05-07 09:09:08+00:00",
+						"user_password_last_used": "2021-05-22 14:26:46+00:00",
+						"user_attached_policies": [
+							"AdministratorAccess",
+							"IAMUserChangePassword"
+						]
+					}
+				]
+			},
+			{
+				"group_id": "AGPA45W322ZAYDNE65EEV",
+				"group_name": "DICT_visualize",
+				"group_attached_policies": [
+					"AmazonVPCFullAccess"
+				],
+				"children": [
+					{
+						"user_id": "AIDA45W322ZA4QIW5O7CI",
+						"user_name": "aaa",
+						"user_arn": "arn:aws:iam::888445523521:user/aaa",
+						"user_create_date": "2021-05-22 14:29:36+00:00",
+						"user_password_last_used": null,
+						"user_attached_policies": [
+							"AdministratorAccess",
+							"IAMUserChangePassword"
+						]
+					}
+				]
+			}
+		]
+	}
+}
