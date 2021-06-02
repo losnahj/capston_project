@@ -286,13 +286,13 @@ function treeBoxes(urlService, jsonData)
         var nodeUpdate = node.transition().duration(duration)
             .attr('transform', function(d) {
                 if(d.user_name === 'root'){
-                    var dx = d.x + 45;
+                    var dx = d.x + 70;
                     return 'translate(' + d.y + ',' + dx +')';
                 }else if(d.user_id){
                     return 'translate(' + d.y + ',' + d.x + ')';
                 }
                 else{
-                    var dx = d.x + 15;
+                    var dx = d.x + 35;
                     return 'translate(' + d.y + ',' + dx + ')';
                 } });
         nodeUpdate.select('rect')

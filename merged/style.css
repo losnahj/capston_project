@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -88,7 +89,6 @@ header ul li a:hover {
 }
 h1 {
     font-size: 3.5em;
-
 }
 h3 {
     font-size: 1.5em;
@@ -100,51 +100,60 @@ p {
     position: relative;
     font-family: 'Nanum Pen Script', cursive;
 }
-/*.side {*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    position: fixed;*/
-/*    top: 100px;*/
-/*    left: 0;*/
-/*    text-align: center;*/
-/*}*/
 .page2 {
     width: 100%;
     height: 890px;
-    background: #F8F7F2;
+    background: #FAFAFA;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 .page2 .main-content {
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+
+}
+.page2 .main-content h1 {
+    font-family: 'Hachi Maru Pop', cursive;
+    font-weight: 500;
+    white-space : nowrap;
+}
+.page2 .main-content h2 {
+    font-size: 27px;
+    color: #C0C0C0;
+    white-space : nowrap;
+}
+.page2 .main-content span {
+    position: relative;
+    top: 100px;
+    padding: 15px 30px;
+    background: darkcyan;
+    border-radius: 50px;
+}
+.page2 .func {
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: 200px;
+    position: relative;
+    bottom: -290px;
+}
+.page2 .func li {
+    list-style: none;
     text-align: center;
 }
-
-.page2 h1 {
+.page2 .func li span {
     font-family: 'Nanum Pen Script', cursive;
+    font-size: 35px;
     font-weight: 500;
+    color: #d2b48c;
 }
-.page2 .ex-image1 {
-    margin-top: 50px;
-    margin: 0 auto;
-    width: 750px;
-    height: 500px;
-    border: 1px solid black;
-    background-image: url("./image/arc.jpg");
-    background-size: 100% 100%;
-}
-.page2 a {
-    position: absolute;
-    font-size: 45px;
-    bottom: 10px;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-decoration: none;
-    color: #000;
+.page2 .func li b {
+    color: #6e6e6e;
 }
 .page3 {
     width: 100%;
